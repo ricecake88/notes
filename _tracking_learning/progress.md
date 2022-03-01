@@ -80,6 +80,8 @@
 # Full Stack Front End Primarily
 
 ## Udemy - NodeJS The Complete Guide Including MVC REST APIS, and GraphQL
+<details>
+<summary>Click to expand</summary>
 
 - [x] 01 Introduction
 	- [x] What is Node.js
@@ -124,6 +126,7 @@
 	- [] 34 Understanding Event Drive Code Execution
 	- [] 35 Blocking and Non-Blocking Code
 - 04 Improved Development Workflow
+</details>
 
 ## Udemy: React Essentials with Typescript a Practical Guide
 <details>
@@ -141,7 +144,7 @@
 - [ ] 10 useState
 - [ ] 11 Login
 - [ ] 12 useEffect
-<details>
+</details>
 
 ## Udemy: The Complete Typescript for Beginners from Zero to Hero 2020
 
@@ -153,6 +156,14 @@
 -[] 03 ScratchJS
 -[] 04 Var Hoisting & Functional Scope
 -[] 05 let Keyword
+</details>
+
+## Scrimba: Learn Typescript for Free
+<details>
+<summary>Click to expand</summary>
+
+[x] Learn primitive types 100%
+	[x] Introduction to Typescript 100%
 </details>
 
 ## Javascript in 30
@@ -168,6 +179,9 @@ https://watchandcode.com
 # Interview Preparation
 
 ## Javascript Interview Preparation
+
+<details>
+<summary>Click to expand</summary>
 
 - [x] Introduction and Course Layout
   
@@ -208,8 +222,11 @@ https://watchandcode.com
 - [] Curry Function
 
 - [] Counter Function
+</details>
 
 ## Mastering Web Developer Interview Code
+<details>
+<summary>Click to expand</summary>
 
 - [] Introduction
   - [x] Stay sharp with web developer interview code
@@ -228,8 +245,11 @@ https://watchandcode.com
   - [] How do you use arrow functions in ES6
 - [] Tasks
 - [] Interviews with Working Professionals
+</details>
 
 ## Udemy - Javascript Algorithms and Data Structures
+<details>
+<summary>Click to expand</summary>
 
 1. [x] Introduction (Completed: 1/12/2021)
    - [x] Curriculum Walkthrough
@@ -241,10 +261,14 @@ https://watchandcode.com
    - [] Add Up To Faster
    - [] Add Up to Slower
    - [] Counting Operations
+</details>
 
 # Computing Foundations
 
-Harvard's CS50x
+## Harvard's CS50x
+
+<details>
+<summary>Click to expand</summary>
 
 - [x] Week 0 Scratch
 - [] week 1 C
@@ -258,3 +282,4 @@ Harvard's CS50x
 - [] Flash
 - [] Emoji
 - [] Cybersecurity
+</details>

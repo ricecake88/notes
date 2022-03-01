@@ -12,11 +12,11 @@
 <details>
 	<summary>Click to expand!</summary>
 
-- [x] Introduction (Completed: 1/12/2021
+- [x] Introduction (Completed: 1/12/2022)
   - [x] Vim for text editing
   - [x] Why Vim
   - [x] Vim Installation
-  - [x] Sample Files and Challenges (1/12/21)
+  - [x] Sample Files and Challenges (1/12/2022)
 
 - [x] Basics
   
@@ -162,8 +162,42 @@
 <details>
 <summary>Click to expand</summary>
 
-[x] Learn primitive types 100%
-	[x] Introduction to Typescript 100%
+- [x] Learn primitive types 100% (Completed 3/1/2022)
+	- [x] Introduction to Typescript 100%
+	- [x] Course Outline
+		- [x] Couch Surfing Website
+		- [x] What is Typescript
+		- [x] Types in Javascript
+		- [x]  Using typeof (mini-challenge)
+		- [x] Viewing Typescript Prompts
+		- [x] Typescrypt Types
+		- [x] Assigning Types
+		- [x] Benefits of Using Typescript
+		- [x] Number Types mini-challenge
+		- [x] Strings Types mini-challenge
+		- [x] Boolean Types mini-challenge
+		- [x] Fixing the Web site mini-challenge
+		- [x] Type Assignment and Type Interference
+
+- [] Learn structural types
+	- [] Object Types
+	- [] Array Types
+	- [] Array Types mini-challenge
+	- [] Creating our Property Object
+	- [] Property Challenge
+	- [] Adding Properties Results
+	- [] Add the Properties to our Dashboard challenge
+	- [] Tuple Types
+	- [] Type Types Challenge
+	- [] Enum Types
+	- [] Enum Types mini-challenge
+	- [] Any Type
+	- [] Union Types
+	- [] Union Types challenge
+	- [] Literal Types
+	- [] Function Types + Void Types
+	- [] Function Types + Void Types mini-challenge
+
 </details>
 
 ## Javascript in 30

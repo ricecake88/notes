@@ -6,12 +6,13 @@
 
 # Tech Learning
 
-# Tools
+## Tools
 
-## LinkedIn Learning - Learning Vim
+### LinkedIn Learning - Learning Vim
+<details>
+	<summary>Click to expand!</summary>
 
-- [x] Introduction (Completed: 1/12/2021)
-  
+- [x] Introduction (Completed: 1/12/2021
   - [x] Vim for text editing
   - [x] Why Vim
   - [x] Vim Installation
@@ -71,6 +72,8 @@
 - [] Day to Day Vim
 
 - [] Conclusion
+
+</details>
 
 # Linux
 

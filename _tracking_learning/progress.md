@@ -126,6 +126,8 @@
 - 04 Improved Development Workflow
 
 ## Udemy: React Essentials with Typescript a Practical Guide
+<details>
+	<summary>Click to expand</summary>
 
 - [x] 01 Installation
 - [x] 02 Docker
@@ -139,14 +141,19 @@
 - [ ] 10 useState
 - [ ] 11 Login
 - [ ] 12 useEffect
+<details>
 
 ## Udemy: The Complete Typescript for Beginners from Zero to Hero 2020
+
+<details>
+	<summary>Click to expand</summary>
 
 -[x] 01 Transpiler
 -[] 02 Tooling Setup
 -[] 03 ScratchJS
 -[] 04 Var Hoisting & Functional Scope
 -[] 05 let Keyword
+</details>
 
 ## Javascript in 30
 

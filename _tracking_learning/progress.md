@@ -20,57 +20,53 @@
 
 - [x] Basics
   
-  - [x] Start and Quit vim
-    - [x] Dual Mode
-    - [x] Insert Text
-    - [x] Save and Quit
-    - [x] Challenge - create file
-    - [x] Solution - create file
+   - [x] Start and Quit vim
+   - [x] Dual Mode
+   - [x] Insert Text
+   - [x] Save and Quit
+   - [x] Challenge - create file
+   - [x] Solution - create file
 
 - [x] Moving Around
-  
- - [x] Navigate using h,j,k,l
- - [x] Words sentences and paragraphs
- - [x] Challenge - find word
- - [x] Solution - find word
-  - [x] Regular expressions (Take his LinkedIn Regular Expression Course)
-  - [x] Challenge - Search word
-  - [x] Solution - Search word
-  - [x] Screen movement
-  - [x] Challenge - Move screens
-  - [x] Solution - Move screens
-  - [x] Lines
-  - [x] Challenge - Move lines
-  - [x] Solution - Move lines
-  - [x] Current word
-  - [x] Challenge - Find next instance of word
-  - [x] Solution - Find next instance of word
+	- [x] Navigate using h,j,k,l
+	- [x] Words sentences and paragraphs
+	- [x] Challenge - find word
+	- [x] Solution - find word
+	- [x] Regular expressions (Take his LinkedIn Regular Expression Course)
+	- [x] Challenge - Search word
+	  - [x] Solution - Search word
+	  - [x] Screen movement
+	  - [x] Challenge - Move screens
+	  - [x] Solution - Move screens
+	  - [x] Lines
+	  - [x] Challenge - Move lines
+	  - [x] Solution - Move lines
+	  - [x] Current word
+	  - [x] Challenge - Find next instance of word
+	  - [x] Solution - Find next instance of word
 
 - [] Changing Text
-	[] Delete text
-	[] Challenge Delete sentence
-	[] Solution Delete sentence
-	[] Copy and Paste
-	[] Challenge - Copy and Paste
-	[] Solution - Copy and Paste
-	[] Change Text
-	[] Challlenge - Change Text
-	[] Solution - Change Text
-	[] Visual selection
-	[] Challenge - Use visual selection
-	[] Solution - Use visual selection
-	[] Registers
-	[] Challenge - Use registers
-	[] Solution - Use registers
-	[] Replace text
+	- [] Delete text
+	- [] Challenge Delete sentence
+	- [] Solution Delete sentence
+	- [] Copy and Paste
+	- [] Challenge - Copy and Paste
+	- [] Solution - Copy and Paste
+	- [] Change Text
+	- [] Challlenge - Change Text
+	- [] Solution - Change Text
+	- [] Visual selection
+	- [] Challenge - Use visual selection
+	- [] Solution - Use visual selection
+	- [] Registers
+	- [] Challenge - Use registers
+	- [] Solution - Use registers
+	- [] Replace text
+
 - [] Marks
-
 - [] Buffers
-
 - [] Configuration
-
 - [] Day to Day Vim
-
 - [] Conclusion
 
 </details>

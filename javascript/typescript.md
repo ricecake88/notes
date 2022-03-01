@@ -32,7 +32,7 @@ If you want to compile and run, make sure `ts-node` is installed.
 # Install axios (for node)
 	npm -i axios @types/axios
 
-# Inference
+# Interference
 Typescript can detect what type an assignment is when a variable is set to a value.
 Example:
 ```typescript
@@ -57,6 +57,39 @@ const isTrue = true
 const numOfApples = 3 
 ```
 `name` is simply just set to `Grace`, and is not associated with type `string`. The same can be said of `isTrue`, set to `true`, and `numOfApples` set to `3`, where they are not associated with `boolean` nor `number`. and `isTrue` is simply set to always `true` and `numOfApples` will always be 3.
+
+# Javascript Object vs Type for Objects
+In the following example:
+```typescript
+const you = {
+	userName: 'Bobby',
+	isReturning: true,
+}
+```
+the type for the object is:
+```typescript
+const you: { userName: string; isReturning: true; }
+```
+which looks very similar to a Javascript object. So make a note of this that this is NOT a Javascript object.
+
+# Arrays
+Typescript has objects with type 'Array' whereas Javascript does not recognize an Array as an array, it recognizes it as an object.
+
+To specify a type of an Array of strings, then to declare a variable as an array of strings, then the syntax would be as follows:
+`deliciousRestaurants: string[]`
+
+To specify a an Array of objects, the syntax would read as (for example):
+```typescript
+const reviews: {
+	name: string,
+	stars: number,
+	loyaltyUser: boolean,
+	date: string
+}[] = [....]
+```
+# Union Types
+If I wanted an array that have a mix of strings and numbers, to declare a variable as a union then the syntax would be as follows:
+`datesStayed: (string | number)[]`
 
 # Sort Function
 Sorting an array of objects that have a date (as type string)

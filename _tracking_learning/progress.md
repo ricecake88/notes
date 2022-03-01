@@ -180,9 +180,9 @@
 		- [x] Type Assignment and Type Interference
 
 - [] Learn structural types
-	- [] Object Types
-	- [] Array Types
-	- [] Array Types mini-challenge
+	- [x] Object Types
+	- [x] Array Types
+	- [x] Array Types mini-challenge
 	- [] Creating our Property Object
 	- [] Property Challenge
 	- [] Adding Properties Results

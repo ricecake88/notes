@@ -1,10 +1,10 @@
-[Typescript Set up](#typescript-set-up)
-[Create a React App Using TypeScript]
-[Install React Router]
-[Install Redux Dependencies]
-[Install typescript redux helper library]
-[If I want to install redux and thunk]
-[Install axios (for node)]
+[Typescript Set up](#typescript-set-up)  
+[Create a React App Using TypeScript](#create-a-react-app-using-typescript)  
+[Install React Router](#install-react-router) 
+[Install Redux  Dependencies](#install-redux-dependencies) 
+[Install Typescript Redux Helper Library](#install-typescript-redux-helper-library)
+[If I want to install redux and thunk](#if-i-want-to-install-redux-and-thunk)  
+[Install axios (for node)](#install-axios-(for-node))
 
 # Typescript set up
 

@@ -179,24 +179,24 @@
 		- [x] Fixing the Web site mini-challenge
 		- [x] Type Assignment and Type Interference
 
-- [] Learn structural types
+- [x] Learn structural types (03/02/2022)
 	- [x] Object Types
 	- [x] Array Types
 	- [x] Array Types mini-challenge
-	- [] Creating our Property Object
-	- [] Property Challenge
-	- [] Adding Properties Results
-	- [] Add the Properties to our Dashboard challenge
-	- [] Tuple Types
-	- [] Type Types Challenge
-	- [] Enum Types
-	- [] Enum Types mini-challenge
-	- [] Any Type
-	- [] Union Types
-	- [] Union Types challenge
-	- [] Literal Types
-	- [] Function Types + Void Types
-	- [] Function Types + Void Types mini-challenge
+	- [x] Creating our Property Object
+	- [x] Property Challenge
+	- [x] Adding Properties Results
+	- [x] Add the Properties to our Dashboard challenge
+	- [x] Tuple Types
+	- [x] Tuple Types Challenge (03/01/2022)
+	- [x] Enum Types
+	- [x] Enum Types mini-challenge
+	- [x] Any Type
+	- [x] Union Types
+	- [x] Union Types challenge
+	- [x] Literal Types
+	- [x] Function Types + Void Types
+	- [x] Function Types + Void Types mini-challenge
 
 </details>
 

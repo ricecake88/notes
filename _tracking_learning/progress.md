@@ -3,12 +3,13 @@
 [Tech Learning](#tech-Learning)  
 [Tools](#tools)  
 [LinkedIn Learning - Learning Vim](#linkedin-learning-learning-vim)  
+[Scrimba - Learning Typescript for free](#scrimba - learning typescript for free) 
 
 # Tech Learning
 
 ## Tools
 
-### LinkedIn Learning - Learning Vim
+### Lin. edIn Learning - Learning Vim
 <details>
 	<summary>Click to expand!</summary>
 
@@ -179,7 +180,7 @@
 		- [x] Fixing the Web site mini-challenge
 		- [x] Type Assignment and Type Interference
 
-- [x] Learn structural types (03/02/2022)
+- [x] Learn structural types (Completed 03/02/2022)
 	- [x] Object Types
 	- [x] Array Types
 	- [x] Array Types mini-challenge
@@ -188,7 +189,7 @@
 	- [x] Adding Properties Results
 	- [x] Add the Properties to our Dashboard challenge
 	- [x] Tuple Types
-	- [x] Tuple Types Challenge (03/01/2022)
+	- [x] Tuple Types Challenge (Completed 03/01/2022)
 	- [x] Enum Types
 	- [x] Enum Types mini-challenge
 	- [x] Any Type
@@ -198,6 +199,24 @@
 	- [x] Function Types + Void Types
 	- [x] Function Types + Void Types mini-challenge
 
+- [x] More advanced TypeScript features (Completed 03/02/2022)
+	- [x] File Organisation
+	- [x] Function Type Challenge
+	- [x] Interfaces
+	- [x] Modules
+	- [x] Classes
+	- [x] Interface and Class Exercise
+	- [x] Add a new Property
+
+- [] Styling
+     -[x] Style hover button
+	- [x] Style hover button exercise (Completed 03/02/2022)
+	- [] Website structure
+	- [] Color consistency
+	- [] Moving interfaces
+	- [] File structure exercise
+	- [] Compiling
+	- [] Where to go next?
 </details>
 
 ## Javascript in 30

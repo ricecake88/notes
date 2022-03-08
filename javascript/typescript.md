@@ -1,12 +1,13 @@
 [Typescript Set up](#typescript-set-up)  
 [Create a React App Using TypeScript](#create-a-react-app-using-typescript)  
-[Install React Router](#install-react-router) 
-[Install Redux  Dependencies](#install-redux-dependencies) 
+[Install React Router](#install-react-router)  
+[Install Redux  Dependencies](#install-redux-dependencies)  
 [Install Typescript Redux Helper Library](#install-typescript-redux-helper-library)
 [If I want to install redux and thunk](#if-i-want-to-install-redux-and-thunk)  
-[Install axios (for node)](#install-axios-(for-node))
+[Install axios (for node)](#install-axios-for-node)  
+[Inference](#inference) 
 
-# Typescript set up
+# . Typescript set up
 
 With node, install type script for all users (global)
     `npm install -g typescript`
@@ -40,7 +41,7 @@ If you want to compile and run, make sure `ts-node` is installed.
 # Install axios (for node)
 	npm -i axios @types/axios
 
-# Interference
+# Inference
 Typescript can detect what type an assignment is when a variable is set to a value.
 Example:
 ```typescript
@@ -198,4 +199,15 @@ function makeMultiple(value: number) {
 }
 ```
 
-# Typescript Organization
+# Classes
+The syntax for writing a class in Typescript is as follows:
+```ts
+class Class {
+	property: type;
+	property2: type;
+	constructor(nameOfProperty: property, nameOfProperty2: property2) {
+		this.nameOfProperty = nameOfProperty;
+		this.nameOfProperty2 = nameOfProperty2;
+	}
+}
+```

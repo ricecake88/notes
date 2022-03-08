@@ -185,6 +185,7 @@ function add ( firstValue: number, secondValue: number) : number {
 	return firstValue + secondValue
 }
 ```
+
 If we want to return undefined from a function, we would want to `return undefined` as the last line in the function. Otherwise we would have to modify the function to specifically return `void` as the type that it is return such as below:
 ```ts
 function sayHello(name: string) : void { 

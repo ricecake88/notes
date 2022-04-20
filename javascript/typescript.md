@@ -6,8 +6,12 @@
 [If I want to install redux and thunk](#if-i-want-to-install-redux-and-thunk)  
 [Install axios (for node)](#install-axios-for-node)  
 [Inference](#inference) 
+[Arrays](#arrays)
+[Function Types](#function-types)
+[[]
 
-# . Typescript set up
+
+# Typescript set up
 
 With node, install type script for all users (global)
     `npm install -g typescript`
@@ -17,6 +21,12 @@ If you want to compile it from command line (which will create a js file):
 
 If you want to compile and run, make sure `ts-node` is installed.
     `ts-node <file.ts>`
+
+Setup a new typescript project by entering in the project folder and creating a `tsconfig.json` file
+   `tsc --init`
+
+To always look for changes in typescript files and to compile the code.
+  `tsc -w`
 
 # Create a React App Using Typescript
 
@@ -200,6 +210,87 @@ function makeMultiple(value: number) {
 }
 ```
 
+### Function Type Definitions
+
+```typescript
+
+// A function that returns of type string
+function PublicationMessage(year: number): string {
+ return 'Date published: ' + year;
+}
+
+// this is the Function Type publishFunc. This "=>" indicates what type it returns. Not to be confused with Javscript function declarations
+let publishFunc: ( someYear: number ) => string
+
+publishFunc = PublicationMessage
+
+let message: string = publishFunc(2021);
+
+/*If the return type from publishFunc does not match the type of string on the left hand side, Typescript will throw an error */
+```
+The parameter names don't have to match up. As long as the return type is the same, that is all that matters.
+
+function overloads
+
+### Optional Parameters
+
+Optional Parameters must _follow_ required parameters. And they are denoted with a question mark after the variable name.
+Example:
+```Typescript
+function CreateCustomer(name: string, age?: number, city?: string): void {
+	console.log('Creating Customer' + name);
+
+	if (age) {
+		console.log('Age: ' + age);
+	}
+
+	if (city) {
+		console.log('City: ' + city);
+	}
+}
+```
+
+### Initial or Default Parameters
+
+```Typescript
+function GetBookTitlesByCategory(categoryFilter: Category = Category.Fiction) : Array<string> {
+	console.log('Getting books in category: ' + Category[categoryFilter]);
+
+	const allBooks = GetAllBooks();
+	const filteredTitles: string[] = [];
+
+	for (let currentBook of allBooks) {
+		if (currentBook.category === categoryFilter) {
+			filteredTitles.push(crrentBook.title);
+		}
+	}
+	return filteredTitles;
+}
+
+let poetryBooks = GetBookTitlesByCategory(Category.Poetry);
+let fictionBooks = GetBookTitlesByCategory();
+```
+
+Can also set default parameter to a function
+```Typescript
+function LogFirstAvailable(book = GetFirstBook()) {
+	...
+}
+```
+### Rest Parameters
+
+Rest Parameters can be used to indicate multiple paramters being passed in by comma. The example below passes a name of type string, and also `bookIDs` which will be of type number[ ]
+Example:
+```Typescript
+fnction GetBooksReadForCustomer(name: string, ...bookIDs: number[])
+```
+
+Use:
+```Typescript
+let books = GetBooksReadForCustomer('Leigh', 2, 5)
+let books = GetBooksReadForCustomer('Daniel', 2, 5, 12, 42)
+```
+
 # Classes
 The syntax for writing a class in Typescript is as follows:
 ```ts
@@ -212,3 +303,22 @@ class Class {
 	}
 }
 ```
+
+# New Types In Typescript
+T is type or interface
+K is key of a property
+
+Record
+Omit
+Pick
+Exclude
+
+# Resources
+
+Typescript Handbook
+https://www.staging-typescript.org/docs/handbook/
+
+Deeper Resources:
+[Design Patterns with Typescript](https://refactoring.guru/design-patterns/typescript)
+Book - Programming Typescript
+Book - Effective Typescript

@@ -9,7 +9,7 @@
 
 ## Tools
 
-### Lin. edIn Learning - Learning Vim
+### LinkedIn Learning - Learning Vim
 <details>
 	<summary>Click to expand!</summary>
 

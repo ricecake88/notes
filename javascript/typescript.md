@@ -304,6 +304,32 @@ class Class {
 }
 ```
 
+## Generics
+
+## Extra Tips
+
+If I want to change the values of an object into a string without caring about order:
+```
+const stringAddress = (addressInfo: Address): string => {
+
+const addressStr: string[] = [];
+
+for (const [key, val] of Object.entries(addressInfo)) {
+
+	if (!!key) {
+
+		addressStr.push(val);
+
+	}
+}
+ 
+
+return addressStr.filter(Boolean).join(', ');
+
+};
+```
+
+
 # New Types In Typescript
 T is type or interface
 K is key of a property
@@ -322,3 +348,4 @@ Deeper Resources:
 [Design Patterns with Typescript](https://refactoring.guru/design-patterns/typescript)
 Book - Programming Typescript
 Book - Effective Typescript
+

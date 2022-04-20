@@ -1,15 +1,30 @@
-[Typescript Set up](#typescript-set-up)  
-[Create a React App Using TypeScript](#create-a-react-app-using-typescript)  
-[Install React Router](#install-react-router)  
-[Install Redux  Dependencies](#install-redux-dependencies)  
-[Install Typescript Redux Helper Library](#install-typescript-redux-helper-library)
-[If I want to install redux and thunk](#if-i-want-to-install-redux-and-thunk)  
-[Install axios (for node)](#install-axios-for-node)  
-[Inference](#inference) 
-[Arrays](#arrays)
-[Function Types](#function-types)
-[[]
+**TABLE OF CONTENTS**
 
+[[#Typescript set up]]
+[[#Create a React App Using Typescript]]
+[[#Install React Router]]
+[[#Install Redux Dependencies]]
+[[#Install typescript redux helper library]]
+[[#If I want to install redux and thunk]]
+[[#Install axios for node]]
+[[#Inference]]
+[[#Javascript Object vs Type for Objects]]
+[[#Arrays]]
+[[#Union Types]]
+[[#Tuple Type]]
+[[#Enums]]
+[[#Literal Types]]
+[[#Sort Function]]
+[[#Function Types]]
+[[#Function Type Definitions]]
+[[#Optional Parameters]]
+[[#Initial or Default Parameters]]
+[[#Rest Parameters]]
+[[#Classes]]
+[[#Generics]]
+[[#Extra Tips]]
+[[#New Types In Typescript]]
+[[#Resources]]
 
 # Typescript set up
 

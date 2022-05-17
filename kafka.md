@@ -189,3 +189,41 @@ I want to consume topic "Users" Partition 1. So the consumer can just read. You 
 `docker run --name kafka -p 9092:9092 -e KAFKA_ZOOKEEPER_CONNECT=ip_address_of_machine:2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEST://ip_address_of_machine:9092 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 confluentinc/cp-kafka`
 3. Initialize node js workspace: `npm init -y`
 3. Install kafkajs:  `npm install kafkajs`
+
+# Kafka Pros
+- Append only Commit log
+	- heart of Kafka
+	- always know where the end; appends at the end is quick
+	- no manipulation of data
+	- write once, read many
+- Performance
+	- You're done once you have written
+	- Seeking with a position is extremely fast.
+	- Read fast, write fast. It is designed for events
+- Distributed
+	- With zookeeper, the concept of partitions with the append commit logs, you can have one leader partition and the rest of the partitions will follow that.
+	- Because of the design with it being sharded, can easily distribute these around, and easily scale as a result
+- Long polling
+	- Kafka does not use a push model. Limitations of a push model is that the consume cannot consume as fast as producers most of the time. (Think youtube videos)
+	- Let's do a polling model where the consumer polls for a message. "Hey is there a message?" and "Don't respond if there isn't any" - wait for X amount of time, and by the way if at least there are X # of messages of X amount of bytes or data available to me ("consumer"), push it to me ("consumer"). There are no empty missed requests - only respond when there is something available for me("consumer")
+	- Consumer starts doing the long polling behind the scenes. 
+- Event-driven architecture, Pub sub and Queue
+	- It's a queue because you can put all your consumers in one group 
+	- each consumer group will only receive one message by one consumer, and will not be received by any other consumer
+	- Can be pub sub - hey I uploaded a video, and lots of other services can consume the same message. Can be sent to multiple consumers by use of consumer group.
+	- Event-driven (micro-services with Kafka). Kafka uses naturally with micro services. Instead of talking to one another, it is more like an event driven. Like "hey, a video has just been uploaded." "a video has just been copyrighted" "hey a video has just been encoded", "a video is ready to be edited". One can store these events, and then one can just listen to these event changes as a consumer. When something happens -> do this as a result instead of having to deal with that logic yourself.
+	- Scaling
+	- Parallel Processing
+		- consumers like there is no tomorrow because all the consumers will hit those partitions in parallel.
+		- multiple partitions can read them in parallel
+		- due to sharding of the data/partitions, this allows them to read in parallel
+		- as a producer, you need to know which partition to write to.
+
+# Kafka Cons
+- Zookeeper
+	- Kafka may remove zookeeper as a dependency
+	- Engineers complain about this - on scale, this behaves strange on scale
+	- If it's down, many things can have issues
+- Producer explicit partition can lead to problems (they have to have the knowledge of knowing where to write to) which complicates the client
+	- Vitesse abstracts the sharding from the client
+- Complex to install, configure and manage (took the author a whole day to figure this out)

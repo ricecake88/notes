@@ -1,10 +1,29 @@
 # Table of Contents
 
-[Tech Learning](#tech-Learning)  
-[Tools](#tools)  
-[LinkedIn Learning - Learning Vim](#linkedin-learning-learning-vim)  
-[Scrimba - Learning Typescript for free](#scrimba - learning typescript for free) 
+[[#Tech Learning]]
+	[[#Tools]] 
+		- [[#LinkedIn Learning - Learning Vim]]
+	[[#Linux]]
+		- [[#Reddit LinuxUpchallenge]]
+	[[#Backend]]
+		- [[#Node]]
+			- [[#Udemy - NodeJS The Complete Guide Including MVC REST APIS and GraphQL]]
+	[[#Frontend]]
+	[#Languages]]
+		[[#Typescript]]
+			-[[#Udemy The Complete Typescript for Beginners from Zero to Hero 2020]]
+			-[[#Scrimba Learn Typescript for Free]]
+		[[#Javascript]]
+			-[[#Javascript30 - 30 Day Vanilla JS Coding Challenge]]
+			-[[#Watch and Code]]
+	[[#Interview Preparation]]
+		-[[#Javascript Interview Preparation]]
+		-[[#Mastering Web Developer Interview Code]]
+	[[#Computing Foundations]]
+		-[[#Udemy - Javascript Algorithms and Data Structures]]
+		-[[#Harvard's CS50x]]
 
+===============
 # Tech Learning
 
 ## Tools
@@ -72,15 +91,14 @@
 
 </details>
 
-# Linux
+## Linux
 
-## Reddit LinuxUpchallenge
-
+### Reddit LinuxUpchallenge
 [https://www.reddit.com/r/technology/comments/rcjusn/remoteworking_job_surveillance_is_on_the_rise_for/](https://www.google.com/url?q=https://www.reddit.com/r/technology/comments/rcjusn/remoteworking_job_surveillance_is_on_the_rise_for/&sa=D&source=hangouts&ust=1643997469350000&usg=AOvVaw3nvBnzwCqz9Ve9Xwjy_4-7)
 
-# Full Stack Front End Primarily
-
-## Udemy - NodeJS The Complete Guide Including MVC REST APIS, and GraphQL
+## Backend
+### Node
+#### Udemy - NodeJS The Complete Guide Including MVC REST APIS, and GraphQL
 <details>
 <summary>Click to expand</summary>
 
@@ -129,7 +147,9 @@
 - 04 Improved Development Workflow
 </details>
 
-## Udemy: React Essentials with Typescript a Practical Guide
+## Frontend
+
+### Udemy: React Essentials with Typescript a Practical Guide
 <details>
 	<summary>Click to expand</summary>
 
@@ -147,8 +167,10 @@
 - [ ] 12 useEffect
 </details>
 
-## Udemy: The Complete Typescript for Beginners from Zero to Hero 2020
-
+## Languages
+### Typescript
+#### Udemy: The Complete Typescript for Beginners from Zero to Hero 2020
+(ON my desktop)
 <details>
 	<summary>Click to expand</summary>
 
@@ -159,7 +181,7 @@
 -[] 05 let Keyword
 </details>
 
-## Scrimba: Learn Typescript for Free
+#### Scrimba: Learn Typescript for Free
 <details>
 <summary>Click to expand</summary>
 
@@ -219,19 +241,16 @@
 	- [] Where to go next?
 </details>
 
-## Javascript in 30
 
-30 Day Challenge
+### Javascript
+#### Javascript30 - 30 Day Vanilla JS Coding Challenge
 https://courses.wesbos.com/account
 
-## Javascript - Watch and Code
-
+####  Watch and Code
 https://watchandcode.com
-01-
 
-# Interview Preparation
-
-## Javascript Interview Preparation
+## Interview Preparation
+### Javascript Interview Preparation
 
 <details>
 <summary>Click to expand</summary>
@@ -277,7 +296,7 @@ https://watchandcode.com
 - [] Counter Function
 </details>
 
-## Mastering Web Developer Interview Code
+### Mastering Web Developer Interview Code
 <details>
 <summary>Click to expand</summary>
 
@@ -300,7 +319,9 @@ https://watchandcode.com
 - [] Interviews with Working Professionals
 </details>
 
-## Udemy - Javascript Algorithms and Data Structures
+## Computing Foundations
+
+### Udemy - Javascript Algorithms and Data Structures
 <details>
 <summary>Click to expand</summary>
 
@@ -316,9 +337,7 @@ https://watchandcode.com
    - [] Counting Operations
 </details>
 
-# Computing Foundations
-
-## Harvard's CS50x
+### Harvard's CS50x
 
 <details>
 <summary>Click to expand</summary>
@@ -336,3 +355,6 @@ https://watchandcode.com
 - [] Emoji
 - [] Cybersecurity
 </details>
+
+================
+# Math & Science

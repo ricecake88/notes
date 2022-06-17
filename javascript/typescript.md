@@ -24,6 +24,7 @@
 [[#Generics]]
 [[#Extra Tips]]
 [[#New Types In Typescript]]
+[[#Narrowing]]
 [[#Resources]]
 
 # Typescript set up
@@ -354,6 +355,137 @@ Omit
 Pick
 Exclude
 
+# Narrowing
+[Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html) is when typescript reads your code, and rules out certain type possibilities because of conditions in your code. This is common when you have a _union_ type. Any time you're performing an operation in an `if` statement, or a `switch` you might be leveraging _narrowing_.
+
+## Union of Literals
+Setting types to be restricted to a set of strings or values
+Example:
+`type Actions = "create" | "update" | "delete"`
+
+## typeof-utility
+typeof is a utility to get the type of a variable
+Example:
+`typeof val`
+
+## keyof utility
+Use the keys of an object as your types.
+
+So you have an Object:
+```
+{
+	name: string,
+	age: number
+}
+```
+
+`keyof { name: string, age: number}`
+
+would then resolve to "name" | " age"
+
+## generic constraints
+
+place constraints on generics, the syntax would be like
+`<T extends string>`
+
+## function type generics
+
+These assign the type from a parameter into subsequent parameters or into the return type,  and can be used to constrain parameter types.
+`function returnMe<T>(a: T): T { return a }`
+
+## indexed access types
+construct an object type out of keys from another type, one can use indexed access types.
+
+Syntax:
+```
+[key in SomeUnionType]: string
+```
+
+can also all for any key by doing: 
+`{ [key: string]: string}
+
+Example:
+```typescript
+type OptionalProps = "name" | "age" | "location"
+type PartialUser = {[ key in OptionalProps]: string | number}
+
+```
+
+When you don't particularly care about the keys and just want it to set it to either string or number, the above example can be used.
+
+Or you can say I don't care what the key is set to and set it to any. For example:
+```typescript
+type AnyKeyOptions = {[ k: string ]: any}
+```
+
+## conditional types
+need to read more on
+
+## infer
+need to read more on
+
+# Utility Types
+## Partial
+All parameters not required,
+
+Syntax:
+`Partial<Object>`
+
+## Required
+Opposite of Partial. Wants any **optional** properties required.
+
+Syntax:
+`Required<Object>`
+
+## Pick
+Syntax:
+`Pick<Object, value_I_want | value2_I_want | ...>`
+
+## Omit
+Syntax:
+`Omit<Object, value_I_dont_want | value2_I_don't_want | ...>`
+
+## Union Intersections - Extract
+Extract can be used to intersect the properties/types that exist in both types.
+
+`Extract<'a'|'b'|'c', 'b'|'d'|'e'>`
+will just return a type that has 'b'.
+
+`type T1 = Extract<string | number | (() => void), Function>;
+
+therefore, type T1 = () => void
+
+## Exclude
+Only takes members of both union types that do not exist in the other. The opposite of `Extract`
+
+`Exclude<'a'|'b'|'c', 'b'|'d'|'e'>`
+will give you a type that has 'a' | 'd' | 'e'
+
+## Parameters
+Parameters takes in a function and makes a type out of the parameters passed into the function.
+
+Example:
+```typescript
+function updateUser(
+	url: string,
+	data: { name: string },
+	config: RequestInit,
+) {
+	return fetch(url, {
+		body: JSON.stringify(data),
+		...config,
+	});
+}
+
+type Url = Parameters<typeof updateUser>[0]; // url parameter of function
+type Data = Parameters<typeof updateUser>[1]; // data parameter type
+type Config = Parameters<typeof updateUser>[2]; // config parameter type
+```
+
+## ReturnType
+
+ReturnType takes a function and returns the function type of that function. can pass an anonymous function, or something like `ReturnType<typeof nameOfFunction>
+`
 # Resources
 
 Typescript Handbook

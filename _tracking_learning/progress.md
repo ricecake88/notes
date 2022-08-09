@@ -9,7 +9,7 @@
 		- [[#Node]]
 			- [[#Udemy - NodeJS The Complete Guide Including MVC REST APIS and GraphQL]]
 	[[#Frontend]]
-	[#Languages]]
+	[[#Languages]]
 		[[#Typescript]]
 			-[[#Udemy The Complete Typescript for Beginners from Zero to Hero 2020]]
 			-[[#Scrimba Learn Typescript for Free]]
@@ -241,6 +241,10 @@
 	- [] Where to go next?
 </details>
 
+
+CodeMastery.Dev
+
+ExecuteProgram.Com
 
 ### Javascript
 #### Javascript30 - 30 Day Vanilla JS Coding Challenge

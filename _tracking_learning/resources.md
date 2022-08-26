@@ -25,8 +25,20 @@ https://mherman.org/blog/stubbing-http-requests-with-sinon/
 
 https://www.youtube.com/watch?v=xrMbzHdPLKM
 
+bloat:
+https://www.cybertec-postgresql.com/en/index-bloat-reduced-in-postgresql-v14/
+https://hakibenita.com/postgresql-unused-index-size
+
+playground:
+https://www.crunchydata.com/blog/learn-postgres-at-the-playground
+
 # Infrastructure 
 https://scalefactory.com/blog/2022/01/27/how-infrastructure-as-code-should-feel/
 
 Overall:
 https://github.com/kealanparr/Every-link-I-wish-I-had-as-a-beginner
+
+# TMUX
+https://danielmiessler.com/study/tmux/
+https://gist.github.com/MohamedAlaa/2961058
+

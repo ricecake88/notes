@@ -11,6 +11,8 @@
 [Advanced Typescript with Code Challenges - Type Guards](https://javascript.plainenglish.io/advanced-typescript-with-code-challenges-type-guards-a5b24bb6d46b)
 [Advanced Typescript with Code Challenges - Generics](https://javascript.plainenglish.io/advanced-typescript-generics-1b30d6b5dd49)
 [Typescript Exercises](https://typescript-exercises.github.io/)
+Scrimba
+ExecuteProgram
 
 # Sinon (Stubs for Testing)
 https://sinonjs.org/releases/latest/stubs/
@@ -41,4 +43,7 @@ https://github.com/kealanparr/Every-link-I-wish-I-had-as-a-beginner
 # TMUX
 https://danielmiessler.com/study/tmux/
 https://gist.github.com/MohamedAlaa/2961058
+
+# React
+
 

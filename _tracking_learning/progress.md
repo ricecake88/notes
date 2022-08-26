@@ -1,9 +1,9 @@
 # Table of Contents
 
-[Tech Learning](#tech-Learning)  
-[Tools](#tools)  
-[LinkedIn Learning - Learning Vim](#linkedin-learning-learning-vim)  
-[Scrimba - Learning Typescript for free](#scrimba - learning typescript for free) 
+[[#Tech Learning]]
+	[[#Tools]]
+	[[#LinkedIn Learning - Learning Vim]]  
+[[#Scrimba Learn Typescript for Free]] 
 
 # Tech Learning
 

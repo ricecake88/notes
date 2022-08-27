@@ -2,6 +2,11 @@
 [Efficiency React Dom vs Browser Dom](#efficiency-react-dom-vs-browser-dom)
     [How Much?](#how-much?)
 [Setting Up React](#setting-up-react)
+[[#To Load Up React right within the webpage]]
+[[#Using Create-React-App]]
+[[#Styling]]
+[[#Refs]]
+[[#Using Hooks]]
 
 # What is React
 
@@ -166,46 +171,42 @@ Styling can be in between {}
 
 For example:
 
+```
 <div style={{margin: ‘1em’, color: blue}}>Yes</div>
-
 <div style={{ color: Math.random < 0.5 ? ‘blue’ : ‘green’}}</div>
+```
 
 Look for CSS options in
 
 https://github.com/MicheleBertoli/css-in-js
 
-CSS in JS
+# CSS in JS
 
-Handling Inputs
+# Handling Inputs
 
 # Refs
 
 Get reference to an element.
 
 Example:
-
+```jsx
 userNameInput = React.createRef();
 
 handleSubmit = (event) => {
-
-event.preventDefault();
-
-console.log(
-
-this.userNameInput.current.value
-
-);
-
+	event.preventDefault();
+	console.log(
+		this.userNameInput.current.value
+	);
 };
 
 <form onSubmit={this.handleSubmit}
-
 <input type=”text” placeholder=”Enter username” ref={this.usernameInput} required />
+```
 
 Or State Objects
 
 Example:
-
+```jsx
 state = {
 
 userName: ‘’
@@ -215,6 +216,7 @@ userName: ‘’
 <form onSubmit={this.handleSubmit}
 
 <input type=”text” placeholder=”Enter username” value={this.state.userName} onChange={this.onChange} required />
+```
 
 The above is what I learned from Flatiron.
 
@@ -222,6 +224,7 @@ Retrieving from an API without using Redux
 
 For example, if we need to retrieve a username from the github api, we can use axios instead of fetch. (fetch is native code). Axios is installed in the js playground.
 
+```jsx
  handleSubmit = async (event) => {
 
  event.preventDefault();
@@ -231,26 +234,22 @@ For example, if we need to retrieve a username from the github api, we can use a
  this.props.onSubmit(resp.data);
 
  }
+```
 
 When using a spread, and modifying just one element, the spread goes first, followed by the element. Example:
 
+```jsx
  addNewProfile = (profileData) => {
 
  console.log('App',profileData);
-
  this.setState(prevState => ({
-
   ...prevState,
-
- profiles: [
-
- ...prevState.profiles,
-
- profileData],
-
- }))
-
+	 profiles: [
+		 ...prevState.profiles,
+		 profileData],
+	 }))
  }
+```
 
 Questions that need to be asked - Handling Errors
 
@@ -272,8 +271,9 @@ One should have a small agent-type module that has one responsibility - to commu
 
 O’Reilly Course React: Getting Started GitHub Card Basic App
 
-Using Class Components:
+## Using Class Components:
 
+```jsx
 const CardList = (props) => {  
  console.log(props.search)  
  return (<div>  
@@ -389,9 +389,11 @@ ReactDOM.render(
 <App title="The GitHub Cards App" />,  
  mountNode,  
 );
+```
 
 # Using Hooks
 
+```jsx
 //Github usernames: gaearon, sophiebits, sebmarkbage, bvaughn  
 
 const CardList = (props) => {  
@@ -482,6 +484,32 @@ ReactDOM.render(
 <App title="The GitHub Cards App" />,  
  mountNode,  
 );
+```
+
+## useState
+Dealing with the value of a variable, and having the changes reflected in the DOM, one needs to use `useState`
+
+## useEffect
+Carries out an effect each time there is a state change. By default it runs after the first render and everytime the state is updated.
+
+Use to achieve various effects like fetching data from an external API, changing the DOM in your component, etc
+
+When I only want useEffect to be ran on based on a specific state, i can pass the variables that it is dependent on based on the dependency array.
+
+```tsx
+useEffect(() => {
+	_action_function_
+}, [<change_only_based_on_this_variable>])
+```
+
+If I want the effect to run only once after rendering, then I should pass an empty array:
+```tsx
+useEffect(() => {
+	_action_function_
+}, [])
+```
+
+If I want to run it everytime the state is changed, do not pass in the dependency array.
 
 # Tips
 
@@ -505,7 +533,7 @@ For example:
 
 Do the following instead:
 
-```react
+```jsx
 const gameIsDone = (availableNums.length === 0) ? true : false;
 
 

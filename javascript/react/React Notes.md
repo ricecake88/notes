@@ -511,6 +511,10 @@ useEffect(() => {
 
 If I want to run it everytime the state is changed, do not pass in the dependency array.
 
+### useEffect and async/await
+The right way to call async/await functions:
+https://devtrium.com/posts/async-functions-useeffect
+
 # Tips
 
 It is a good idea to keep computational logic away from the return statement. 
@@ -579,4 +583,4 @@ Samer Buren’s courses
 
 [jsComplete: Learn Modern Full-stack JavaScript with Node and React](https://jscomplete.com/learn)
 
-**
+[Why You Should Be Storing Remote Data in a Cache (and Not in State)](https://betterprogramming.pub/why-you-should-be-separating-your-server-cache-from-your-ui-state-1585a9ae8336)

@@ -515,6 +515,9 @@ If I want to run it everytime the state is changed, do not pass in the dependenc
 The right way to call async/await functions:
 https://devtrium.com/posts/async-functions-useeffect
 
+References:
+https://dmitripavlutin.com/react-useeffect-explanation/
+
 # Tips
 
 It is a good idea to keep computational logic away from the return statement. 
@@ -564,6 +567,14 @@ Previously it was:
 `<Route path={''/'} component={Dashboard} />`
 
 - Link cannot be within BrowserRouter
+
+# Problems Encountered
+1. Using useEffect, and trying to retrieve the list of events, what can happen when we run fetch is that whenever we use set___ (in my case, setEvents). it creates a new object eveytime which then results in constant infinite loop of useEffect.
+
+https://stackoverflow.com/questions/62143132/useeffect-causing-infinite-loop
+https://stackoverflow.com/questions/53070970/infinite-loop-in-useeffect
+https://dmitripavlutin.com/react-useeffect-explanation/
+https://dmitripavlutin.com/react-useeffect-infinite-loop/
 
 # Resources
 

@@ -10,3 +10,6 @@ Select what you want to squash
 Select to squash your last three commits into one
 Example:
 `git rebase -i HEAD~3`
+
+# Revert Commit
+`git checkout <commit_id> <path_of_file>`

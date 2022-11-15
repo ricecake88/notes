@@ -36,7 +36,7 @@ We need a `tsconfig.json` file in order for the Typescript compiler to understan
 `npm tsc --init`
 
 ## Install Postgres and Related Packages
-`npm install sequelize pg pg-hstore`
+`npm install sequelize pg pg-hstore sequelize-cli -g`
 
 `pg`: Postgres
 `pg-hstore`: PostgresQL hstore format (https://www.ibm.com/cloud/blog/an-introduction-to-postgresqls-hstore)
@@ -73,6 +73,11 @@ touch db.config.ts
 
 ### 2c Fill out the `db.config.ts`
 ```typescript
+import * as dotenv from 'dotenv';
+
+// load the environment variables
+dotenv.config();
+
 export const dbConfig = {
   HOST: "localhost",
   USER: process.env.PG_USERNAME,
@@ -95,8 +100,40 @@ First five parameters are for PostgreSQL connection.
 -   `idle`: maximum time, in milliseconds, that a connection can be idle before being released
 -   `acquire`: maximum time, in milliseconds, that pool will try to get connection before throwing error
 
+# 3. Import and create connection to database using Sequelize
+
+Under `src/models/index.ts`, we want to pass in our database connection information that we we filled out in the `src/config/db.config.ts` file.
+
+```typescript
+import { Dialect, Sequelize } from 'sequelize';
+import { dbConfig } from '../config/db.config';
+
+const sequelizeConnection = new Sequelize(
+    dbConfig.DB,
+    dbConfig.USER,
+    dbConfig.PASSWORD,
+    {    
+        dialect: dbConfig.dialect as Dialect,
+        port: dbConfig.PORT,
+        host: dbConfig.HOST
+    }
+)
+export default sequelizeConnection;
+```
+
+# 3a. Connect to database directly to Postgres
+
+Follow: https://northflank.com/guides/connecting-to-a-postgresql-database-using-node-js
+and:
+https://www.makeuseof.com/node-postgresql-connect-how/
+
 # REFERENCES
 
+Building a Crud App with Error Handling and auth check:
 // https://auth0.com/blog/node-js-and-typescript-tutorial-build-a-crud-api/
 
 // https://ultimatecourses.com/blog/setup-typescript-nodejs-express
+
+Dockerizing Postgres
+// https://dev.to/chema/how-to-create-a-dockerized-postgres-db-3hg9
+// https://www.docker.com/blog/how-to-use-the-postgres-docker-official-image/

@@ -320,6 +320,10 @@ class Class {
 }
 ```
 
+### Private vs Public vs Protected
+
+https://stackoverflow.com/questions/38713052/understanding-public-private-in-typescript-class
+
 ## Generics
 
 ## Extra Tips

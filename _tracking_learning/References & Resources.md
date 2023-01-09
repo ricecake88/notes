@@ -1,37 +1,54 @@
-# Kafka
-[Apache Kafka Crash Course](https://www.youtube.com/watch?v=R873BlNVUB4)
+## Full Stack
+100Devs
+Odin Project: https://theodinproject.com
+FreeCodeCamp
+https://fullstackopen.com
 
+## Languages
 
-# C\#
+### All:
+**Resources**:
+	Frontend Masters:
+	- https://frontendmasters.com/courses/
+
+**Exercises**:
+https://exercism.org
+
+### C\#
 https://www.learncs.org/
 
-# Python
+### Python
 https://futurecoder.io/
 
-# Typescript
+### React
+
+
+
+### Typescript
 [TypeScript Generics for People Who Gave Up on Understanding Generics](https://ts.chibicode.com/generics)
 [Understanding Type Predicates](https://dev.to/daveturissini/aha-understanding-typescript-s-type-predicates-40ha)
 [Understanding Generics](https://blog.bitsrc.io/understanding-generics-in-typescript-1c041dc37569)
 [How to use Generics in Typescript](https://www.digitalocean.com/community/tutorials/how-to-use-generics-in-typescript)
 
-## Exercises
-[Advanced Typescript with Code Challenges - Type Guards](https://javascript.plainenglish.io/advanced-typescript-with-code-challenges-type-guards-a5b24bb6d46b)
-[Advanced Typescript with Code Challenges - Generics](https://javascript.plainenglish.io/advanced-typescript-generics-1b30d6b5dd49)
-[Typescript Exercises](https://typescript-exercises.github.io/)
-Scrimba
-ExecuteProgram (Sign up with https://www.destroyallsoftware.com/screencasts if I want to continue using it)
+**Exercises**
+- [Advanced Typescript with Code Challenges - Type Guards](https://javascript.plainenglish.io/advanced-typescript-with-code-challenges-type-guards-a5b24bb6d46b)
+- [Advanced Typescript with Code Challenges - Generics](https://javascript.plainenglish.io/advanced-typescript-generics-1b30d6b5dd49)
+- [Typescript Exercises](https://typescript-exercises.github.io/)
+- Scrimba
+- ExecuteProgram (Sign up with https://www.destroyallsoftware.com/screencasts if I want to continue using it)
 
-# Sinon (Stubs for Testing)
-https://sinonjs.org/releases/latest/stubs/
+## Important Peripherals
 
-Examples:
-https://mherman.org/blog/stubbing-http-requests-with-sinon/
+### Cloud
 
+#### Amazon
+**Training**
+AWS Cloud Quest: https://aws.amazon.com/training/digital/aws-cloud-quest/
 
-# Chai (Testing Framework)
+### Kafka
+[Apache Kafka Crash Course](https://www.youtube.com/watch?v=R873BlNVUB4)
 
-# Postgres
-
+### Postgres
 https://www.youtube.com/watch?v=xrMbzHdPLKM
 
 bloat:
@@ -41,8 +58,26 @@ https://hakibenita.com/postgresql-unused-index-size
 playground:
 https://www.crunchydata.com/blog/learn-postgres-at-the-playground
 
-## Exercises
-https://pgexercises.com/
+**Exercises**
+- https://pgexercises.com/
+
+### SQL
+**Exercises**
+https://sqlbolt.com/
+https://www.sql-practice.com/
+https://selectstarsql.com/
+https://sql-island.informatik.uni-kl.de/
+
+### Testing
+
+#### Sinon (Stubs for Testing)
+https://sinonjs.org/releases/latest/stubs/
+
+Examples:
+https://mherman.org/blog/stubbing-http-requests-with-sinon/
+
+
+### Chai (Testing Framework)
 
 # Infrastructure 
 https://scalefactory.com/blog/2022/01/27/how-infrastructure-as-code-should-feel/
@@ -53,26 +88,6 @@ https://github.com/kealanparr/Every-link-I-wish-I-had-as-a-beginner
 # TMUX
 https://danielmiessler.com/study/tmux/
 https://gist.github.com/MohamedAlaa/2961058
-
-# React
-
-
-# SQL
-## Exercises
-https://sqlbolt.com/
-https://www.sql-practice.com/
-https://selectstarsql.com/
-https://sql-island.informatik.uni-kl.de/
-
-# Cloud
-## AWS Cloud Quest
-
-Training
-https://aws.amazon.com/training/digital/aws-cloud-quest/
-
-## Multiple Items
-https://fullstackopen.com
-https://theodinproject.com
 
 
 # General List of Great Programming Learning Sites (and Gaming!)
@@ -85,20 +100,16 @@ https://theodinproject.com
 * Learn overview of X
 	* https://learnxinyminutes.com/
 
-Front End:
-- https://frontendmasters.com/courses/
 
-While making my foodie app:
+
+## Found while making my Apps:
   
-
 Front end:
 //https://blog.logrocket.com/how-to-use-typescript-with-react-18-alpha/
 
 Backend:
 // REFERENCES
-
 // https://auth0.com/blog/node-js-and-typescript-tutorial-build-a-crud-api/
-
 // https://ultimatecourses.com/blog/setup-typescript-nodejs-express
 
 

@@ -1,3 +1,10 @@
+I. [[#Variables Block Scopes]]
+...[[#What is a Scalar]]
+...[[#Const vs let]]
+...[[#Closures]]
+II. [[#Templating]]
+III. [[#Asynchronous]]
+
 # Javascript Weirdness
 
 ## Variables & Block Scopes
@@ -134,6 +141,41 @@ const data = await resp.json();
 ```
 
 fetchData itself will return a promise Object.
+
+## Reduce
+
+Understanding reduce:
+https://www.freecodecamp.org/news/reduce-f47a7da511a9/
+
+# Tips
+## How to add a property to an object only when it's defined
+
+Example in which `this.route.snapshot.queryParams.product_id` may or may not be undefined from a query parameter.
+
+Longer version:
+```javascript
+let params = {
+  limit: limit,
+  offset: 15,
+  status: "completed",
+  ...this.route.snapshot.queryParams.product_id && {product_id: this.route.snapshot.queryParams.product_id},
+};
+```
+
+Shorter version:
+```javascript
+const product_id = this.route.snapshot.queryParams.product_id
+let params = {
+  limit: limit,
+  offset: 15,
+  status: "completed",
+  ...product_id && {product_id},
+};
+```
+
+Reference: 
+- https://stackoverflow.com/questions/52852567/add-property-to-object-only-if-it-is-not-undefined
+- https://stackoverflow.com/questions/11704267/in-javascript-how-to-conditionally-add-a-member-to-an-object
 
 Resources
 

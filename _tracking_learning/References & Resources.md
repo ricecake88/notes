@@ -10,6 +10,8 @@ https://fullstackopen.com
 **Resources**:
 	Frontend Masters:
 	- https://frontendmasters.com/courses/
+	Developer Roadmaps:
+	- https://roadmap.sh/
 
 **Exercises**:
 https://exercism.org

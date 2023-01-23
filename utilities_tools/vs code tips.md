@@ -1,3 +1,5 @@
+[[#Navigate back to previous position]]
+
 ## Navigate back to previous position
 
 On Windows:

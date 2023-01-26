@@ -44,6 +44,14 @@ Setup a new typescript project by entering in the project folder and creating a 
 To always look for changes in typescript files and to compile the code.
   `tsc -w`
 
+# tsconfig.json
+
+This is the configuration file that uses various different compiler options. [Here](https://www.typescriptlang.org/docs/handbook/compiler-options.html) is the full list. Most common ones:
+* `noImplicitAny` - instructs compiler to raise errors on expressions and declarations with an implied `any` type.
+* `noEmitOnError`
+* `target` (specifies the ECMAScript target version for the Javascript file)
+These can be used in command line, or placed directly in the config file.
+
 # Create a React App Using Typescript
 
     npx create-react-app <name_of_project> --template typescript

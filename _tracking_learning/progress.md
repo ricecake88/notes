@@ -1,6 +1,6 @@
 # Table of Contents
 
-[[#Tech Learning]]
+[[#A. Tech Learning]]
 
 	[[#Tools]] 
 		- [[#LinkedIn Learning - Learning Vim]]
@@ -25,7 +25,7 @@
 		-[[#Harvard's CS50x]]
 
 
-# Tech Learning
+# A. Tech Learning
 
 ## Tools
 

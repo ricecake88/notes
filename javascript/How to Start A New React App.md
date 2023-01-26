@@ -137,3 +137,19 @@ Building a Crud App with Error Handling and auth check:
 Dockerizing Postgres
 // https://dev.to/chema/how-to-create-a-dockerized-postgres-db-3hg9
 // https://www.docker.com/blog/how-to-use-the-postgres-docker-official-image/
+https://github.com/mghextreme/typescript-api-template/blob/master/docker-compose.yml
+https://dev.to/antoniovdlc/a-look-at-postgresql-migrations-in-node-4gjp
+
+Sequelize Links
+// 
+https://medium.com/@mghextreme/api-setup-using-nodejs-typescript-postgres-and-sequelize-48a0af72dda6
+https://sequelize.org/docs/v6/other-topics/typescript/
+https://dev.to/chandrapantachhetri/docker-postgres-node-typescript-setup-47db
+https://archive.ph/F83qA
+https://sequelize.org/docs/v6/core-concepts/model-basics/
+https://sequelize.org/docs/v6/getting-started/
+https://codeforgeek.com/getting-started-sequelize-postgresql/
+https://sequelize.org/docs/v6/other-topics/migrations/
+https://blog.logrocket.com/using-sequelize-with-typescript/
+https://sequelize.org/docs/v6/
+https://sequelize.org/api/v6/identifiers.html

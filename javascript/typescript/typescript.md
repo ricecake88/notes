@@ -497,6 +497,15 @@ type Config = Parameters<typeof updateUser>[2]; // config parameter type
 ## ReturnType
 
 ReturnType takes a function and returns the function type of that function. can pass an anonymous function, or something like `ReturnType<typeof nameOfFunction>
+
+## Map
+Takes an object of key list pairs and converts it to Map. Can set, remove new key pairs.
+
+```ts
+let myMap = new Map<string, string>([ ["key1", "value1"], ["key2", "value2"] ]);
+```
+Resource:
+https://howtodoinjava.com/typescript/maps/
 `
 # Resources
 

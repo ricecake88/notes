@@ -4,6 +4,11 @@ I. [[#Variables Block Scopes]]
 ...[[#Closures]]
 II. [[#Templating]]
 III. [[#Asynchronous]]
+IV. [[#Async/Await]]
+V. [[#Reduce]]
+VI. [[#FlatMap]]
+VII. [[#Tips]]
+...[[#How to add a property to an object only when it's defined]]
 
 # Javascript Weirdness
 
@@ -69,7 +74,7 @@ A regular function binds `this` to its caller.
 
 What makes an arrow function so great (and is my preference) is that this can still have access to the element when you need a delay such as for event listeners, and not the calling environment.
 
-# Templating
+## Templating
 
 Template strings in Javascript are indicated by ${}.
 
@@ -89,7 +94,7 @@ Output will be
 <div>0.4767816436886543</div>
 ```
 
-# Asynchronous
+## Asynchronous
 
 Look into MacroTasks vs MicroTasks
 
@@ -101,7 +106,7 @@ Dakota Martinez explaining async vs sync
 
 [https://www.youtube.com/watch?v=xONU7lUzIRM](https://www.youtube.com/watch?v=xONU7lUzIRM)
 
-## What is a Promise?
+### What is a Promise?
 
 A promise is an object that might deliver data at a later point in the program.
 
@@ -146,6 +151,14 @@ fetchData itself will return a promise Object.
 
 Understanding reduce:
 https://www.freecodecamp.org/news/reduce-f47a7da511a9/
+
+## FlatMap
+The Javascript **array.flatMap()** is an inbuilt function in JavaScript that is used to flatten the input array element into a new array. It combines the two functions of "map()" and "flat()". So it takes an array that you map it, and then you flatten the new array.
+
+Resources:
+https://www.geeksforgeeks.org/javascript-array-flatmap/
+https://www.javascripttutorial.net/es-next/javascript-array-flatmap/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap
 
 # Tips
 ## How to add a property to an object only when it's defined

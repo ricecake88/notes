@@ -377,9 +377,20 @@ Example:
 
 ## typeof-utility
 typeof is a utility to get the type of a variable
-Example:
+**Example**:
 `typeof val`
 
+**Example 2:**
+If I wanted to take an array of elements, and restrict a parameter to be only of those literal types I would do the following:
+```typescript
+
+const COLORS = [ "black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white"] as const
+    
+const colorCode = (color: colorsAllowed) => {
+  return COLORS.indexOf(color);
+}
+type colorsAllowed = typeof COLORS[number]
+```
 ## keyof utility
 Use the keys of an object as your types.
 

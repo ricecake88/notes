@@ -38,6 +38,17 @@ Or reverting to the last commit:
 ```shell
 git checkout <commit_id>~1 <path_of_file>
 ```
+
+## Remove the last commit from remote
+
+This is great for my stupid printouts. Note that the change still remains in local but it will be seen as a change locally.
+
+```bash
+git reset HEAD^ # remove commit locally
+git push origin +HEAD # force-push the new HEAD commit
+```
+https://stackoverflow.com/questions/8225125/remove-last-commit-from-remote-git-repository
+
 ## Revert the last merge commit
 Reference to reversing merged commits:
 https://brianasz.com/2019/11/26/Reverting_merged_commits.html

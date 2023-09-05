@@ -1,16 +1,50 @@
 # VIM
 
+Navigation 'Normal' Mode
+
+| key | description |
+|--| --| 
+| h | move left |
+| j | move down |
+| k | move up |
+| l | move right |
+| e | go to the end of the word |
+| E | go to the end of the word including symbols like periods |
+| w | go to the beginning of the next word |
+| W | go to the beginning of the next word including symbols like periods |
+| b | go to the previous word |
+| B | go to the beginning of the word including symbols |
+| 0 | go to the beginning of a line |
+| $ | go to the end of a line | 
+| ^ | move to the first non-space character in the line |
+| f | move to the next occurrence of that character in the current line |
+| F | move to the previous occurrence of that character in the current line |
+| ; | repeat the forward search from previous |
+| , | repeat the backward search from previous |
+| t | jump forward to the character to the left of the specified character you are looking for on current line |
+| T | jump backwards to the character to the left of the specified character you are looking for on current line |
+| % | jump to the next matching bracket pair when you are on either ( or { |
+
+
+Editing in 'Normal' Mode
+| key | description |
+| -- | -- |
+| d | delete mode |
+| d + e/E/w/W/b/B | delete to the end, delete a word, delete back
+| D | delete to the end of the line |
+| r + [char] | replace a character with 'char'
+
+
 Normal Mode = main mode that isn't in insertion mode.
 
 ## Normal Mode
 
-append wherever the cursor is and set to Insert Mode  
-
-- 'a'  
-
-append to end of line and set to Insert Mode  
-
-- Shift + 'a' (Capital A)  
+|key | description |
+|--|--|
+|'a' |append wherever the cursor is and set to Insert Mode |
+|  Shift + 'a' (Capital A)  | append to end of line and set to Insert Mode  
+| 'r' | replace the character with another character
+| 'x' | delete a character
 
 undo  
 
@@ -189,3 +223,4 @@ and then look at how to include them in your .vimrc file
 
 Fun Game to practice vim:
   https://vim-adventures.com/
+  

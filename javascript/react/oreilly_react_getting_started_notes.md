@@ -10,7 +10,7 @@ One should have a small agent-type module that has one responsibility - to commu
 
 *Using Class Components:*
 
-```react
+```reactjs
 const CardList = (props) => {
    console.log(props.search)
    return (<div>

@@ -362,11 +362,36 @@ return addressStr.filter(Boolean).join(', ');
 T is type or interface
 K is key of a property
 
-Record
+### Record
 Omit
 Pick
 Exclude
 
+### Map
+To declaring a new variable that is a Map of "type in key", "type in value":
+
+```typescript
+const variableYouWantToMamp = new Map<type for key, type for value>([
+	...[Pairs of key and values]
+]])
+```
+
+Example:
+```typescript
+const animalLegs = new Map<string, number>([
+	["cat", 4],
+	["dog", 4],
+	["octopus", 8]
+])
+```
+
+If I wanted to create a generic I could also do 
+```typescript
+interface newType = {
+	[key: string]: number
+}
+```
+ 
 # Narrowing
 [Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html) is when typescript reads your code, and rules out certain type possibilities because of conditions in your code. This is common when you have a _union_ type. Any time you're performing an operation in an `if` statement, or a `switch` you might be leveraging _narrowing_.
 

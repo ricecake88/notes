@@ -103,16 +103,16 @@
 <details>
 <summary>Click to expand</summary>
 
-- [x] 01 Introduction
-	- [x] What is Node.js
-	- [x] Installing Node.js and Creating our First App
-	- [x] Understanding the Role Usage of Node.js
-	- [x] Course Outline
-	- [x] How to Get the Most Out of the Course
-	- [x] Working with the REPL vs Using Files
-	- [x] Using the Attached Source Code
+- [x] 01 Introduction @tech
+	- [x] What is Node.js @tech
+	- [x] Installing Node.js and Creating our First App @tech
+	- [x] Understanding the Role Usage of Node.js @tech
+	- [x] Course Outline @tech
+	- [x] How to Get the Most Out of the Course @tech
+	- [x] Working with the REPL vs Using Files @tech
+	- [x] Using the Attached Source Code @tech
 
-- [] 02 Optional Javascript - A Quick Refresher
+- [] 02 Optional Javascript - A Quick Refresher @tech
   - [] Core JS syntax
   - [] let and const
   - [] arrow functions
@@ -154,13 +154,13 @@
 <details>
 	<summary>Click to expand</summary>
 
-- [x] 01 Installation
+- [x] 01 Installation @tech
 - [x] 02 Docker
 - [x] 03 Template (Bootstrap)
 - [x] 04 Components
 - [x] 05 Router
 - [x] 06 Wrapper
-- [x] 07 Register
+- [x] 07 Register #tech
 - [ ] 08 Http Requests (issue, I cannot access the backend)
 - [ ] 09 State
 - [ ] 10 useState

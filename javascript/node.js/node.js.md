@@ -122,3 +122,6 @@ readline.createInterface(process.stdin, process.stdout)
 `node -v`
 
 
+# How to Organize a NodeJS App
+Brilliant breakdown and explanation of Routes, Controllers, Services & Models (Data Access Object) and how to organize it.
+https://thekenyandev.com/blog/routes-controllers-services-and-models-daos-in-a-nodejs-api-layered-architecture-in-depth/

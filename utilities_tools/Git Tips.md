@@ -68,3 +68,9 @@ Reference:
 https://stackoverflow.com/questions/1611215/remove-a-git-commit-which-has-not-been-pushed
 
 `git revert HEAD`
+
+
+# References
+
+Gamify it: #game
+https://ohmygit.org/
